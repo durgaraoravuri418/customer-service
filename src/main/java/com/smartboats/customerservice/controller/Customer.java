@@ -9,7 +9,7 @@ public class Customer
     @GetMapping("/getCustomers")
     public String getCustomers()
     {
-        return "List of customers";
+        return "List of smartcustomers";
     }
 
 }
